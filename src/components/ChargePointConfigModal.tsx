@@ -354,7 +354,7 @@ const ChargePointConfigModal: React.FC<ChargePointConfigModalProps> = ({
                       htmlFor="autoMeterValue"
                       className="mb-2 logger-label"
                     >
-                      Increment Value (kWh)
+                      Increment Value (Wh)
                     </Label>
                     <Input
                       id="autoMeterValue"

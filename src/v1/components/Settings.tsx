@@ -272,7 +272,7 @@ const Settings: React.FC = () => {
                 style={{ maxWidth: "20ch" }}
                 required
               />
-              <span className="text-gray-700 text-sm font-bold ml-2">kWh</span>
+              <span className="text-gray-700 text-sm font-bold ml-2">Wh</span>
             </div>
           )}
         </div>
