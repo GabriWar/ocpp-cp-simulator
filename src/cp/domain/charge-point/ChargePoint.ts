@@ -108,6 +108,12 @@ export class ChargePoint {
         connector.status,
         connector.availability,
       );
+      connector.events.on("meterValueChange", ({ meterValue }) => {
+        this._events.emit("connectorMeterValueChange", {
+          connectorId,
+          meterValue,
+        });
+      });
     });
   }
 
